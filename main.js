@@ -21,7 +21,7 @@ function addItem(e){
 
     //get the value from Search Box and hold it with variable.
     var newItem = document.getElementById('item').value;
-    if(newItem && newItem==newItem){
+    if(newItem){
         document.getElementById('item').style = "border: 1px solid";
         //create li element and hold the value with variable.
         var li = document.createElement('li');
